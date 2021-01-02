@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Redressed', cursive;
+}
+.hero_card{
+    margin: 0px auto;
+    padding: 0px 80px;
+    display: flex;
+    justify-content: center;
+}
+.Cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr 1fr; */
+  gap: 20px 20px;
+  grid-template-areas:
+    "img  desc desc desc "
+    " desc1 desc1 desc1   img1"
+    "img2 desc2 desc2 desc2 "
+    " desc3 desc3 desc3   img3";
+}
+
+.img {grid-area: img;}
+.desc {grid-area: desc;}
+.img1 {grid-area: img1;}
+.desc1 {grid-area: desc1;}
+.img2 {grid-area: img2;}
+.desc2 {grid-area: desc2;}
+.img3 {grid-area: img3;}
+.desc3 {grid-area: desc3;}
+
+
+
+.head_nav{
+    background: rgba(110, 216, 205, 0.61);
+    
+}
+.navbar{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    width: 100%;
+}
+.b-name{
+    
+    font-weight:bolder;
+    justify-content: start;
+}
+.nav_btn{
+    position: absolute;
+    right: 10px;
+    /* justify-content: right; */
+}
+.btn{
+    padding: 10px;
+    background: transparent;
+    font-family: 'Merienda', cursive;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    /* flex-wrap: wrap; */
+    overflow: hidden;
+    height: 200px;
+    background: linear-gradient(to bottom,purple ,yellow);
+}
+.hero h1{
+    /* background: url(); */
+    font-family: 'Redressed', cursive;
+    padding: 5px 5px;
+    font-size: 140px;
+}
+.hero button{
+border:1px solid red;
+border-radius: 8px;
+width: 30%;
+color: red;
+font-size: 20px;
+
+margin: 0 auto;
+
+}
+/* cards sectionpending here */
+
+
+.branding{
+    /* background-image: https://images.unsplash.com/photo-1468971050039-be99497410af?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1190&q=80; */
+    background: url('https://images.unsplash.com/photo-1468971050039-be99497410af?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1190&q=80' ) ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover ;
+    min-height: 180px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.branding p{
+    font-size: 40px;
+    color: white;
+
+}
+
+.prefoot{
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.download h2{
+font-size: 50px;
+padding: 5px;
+margin: 9px;
+}
+.shortdesc button{
+    padding: 8px 15px;
+    margin: 0 8px;
+}
+
+.second_grid{
+    padding: 0px 41px;
+    margin: 10px auto ;
+    display: flex;
+    justify-content: center ;
+    width: 100%;
+    flex-wrap: wrap;
+    /* text-align: center; */
+    }
+.Cards2{
+    display: flex;  
+    /* flex-direction: row; */
+    width: 100%;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.pic{
+    width: 20%;
+}
+.conten{
+    width: 30%;
+}
+
+
+
+
+.foot{
+    width: 100%;
+    font-size: 12px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+
+
+
+@media only screen and (max-width:768px){
+
+.Cards{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+
+.Cards2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.nav_btn{
+    display: none;
+}
+.hero h1{
+    font-size: 20px;
+}
+.download h2{
+    overflow: auto;
+    font-size: 20px;
+}
+.download_btn{
+    font-size: 10px;
+    margin: 0 4px;
+    padding: 3px;
+
+}
+
+}
