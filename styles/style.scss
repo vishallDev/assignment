@@ -5,7 +5,7 @@
     scroll-behavior: smooth;
 }
 body{
-    background: rgba(143, 140, 140, 0.315);
+    // background: rgba(143, 140, 140, 0.315);
 }
 //! header section starts here which includes navbar buttons 
 header{
@@ -68,6 +68,9 @@ header{
     color: white;
     font-size: 130px;
     letter-spacing: 0.8px;
+    background: url(/images/superworks.png) center center/cover;
+    -webkit-background-clip: text;
+    color: transparent;
     }
     button{
         background-color: transparent; /* Green */

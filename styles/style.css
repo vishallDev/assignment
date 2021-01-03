@@ -6,10 +6,6 @@
   scroll-behavior: smooth;
 }
 
-body {
-  background: rgba(143, 140, 140, 0.315);
-}
-
 header {
   width: 100%;
 }
@@ -69,6 +65,9 @@ header .navbar .nav_btn .btn:hover {
   color: white;
   font-size: 130px;
   letter-spacing: 0.8px;
+  background: url(/images/superworks.png) center center/cover;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .hero button {
