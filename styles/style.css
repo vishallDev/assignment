@@ -180,7 +180,7 @@ header .navbar .nav_btn .btn:hover {
   overflow: hidden;
   height: 180px;
   margin: 4px auto;
-  padding: 4px;
+  padding: 0 9px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -269,7 +269,7 @@ header .navbar .nav_btn .btn:hover {
 }
 
 .download {
-  min-height: 150px;
+  min-height: 190px;
   text-align: center;
   padding: 10px;
 }
@@ -281,7 +281,7 @@ header .navbar .nav_btn .btn:hover {
 }
 
 .download .download_btn {
-  padding: 5px 10px;
+  padding: 10px 29px;
   margin: 0 5px;
   background: transparent;
   border: 1px solid black;
@@ -303,7 +303,6 @@ header .navbar .nav_btn .btn:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 8px auto;
   padding: 0 20px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -313,6 +312,9 @@ header .navbar .nav_btn .btn:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100%;
   margin: 2px 2px;
 }
@@ -328,6 +330,14 @@ header .navbar .nav_btn .btn:hover {
   margin: 8px;
   border: 0.5px solid black;
   overflow: hidden;
+  width: 50%;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.card_container_2 .cards2 .box:hover {
+  -webkit-box-shadow: 0 0px 36px -10px black;
+          box-shadow: 0 0px 36px -10px black;
 }
 
 .card_container_2 .cards2 .box .pic {
@@ -338,7 +348,7 @@ header .navbar .nav_btn .btn:hover {
 .card_container_2 .cards2 .box .content {
   width: 100%;
   padding: 2px;
-  font-size: 9px;
+  font-size: 19px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -352,7 +362,7 @@ header .navbar .nav_btn .btn:hover {
 footer {
   text-align: center;
   background-color: rgba(95, 158, 160, 0.719);
-  padding: 15px;
+  padding: 8px 0px;
 }
 
 footer p {
@@ -413,19 +423,19 @@ footer p {
   .download .download_btn {
     margin: 2px 2px;
   }
-  .card_container_2 {
-    padding: 0;
+  .card_container_2 .cards2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
   }
   .card_container_2 .cards2 .box {
     width: 100%;
-    height: 10vh;
-    margin: 4px;
-  }
-  .card_container_2 .cards2 .box .pic {
-    height: 100%;
-  }
-  .card_container_2 .cards2 .box .content {
-    font-size: 0.3rem;
+    margin: 3px 0px;
   }
 }
 /*# sourceMappingURL=style.css.map */
