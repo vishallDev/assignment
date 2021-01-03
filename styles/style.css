@@ -437,5 +437,9 @@ footer p {
     width: 100%;
     margin: 3px 0px;
   }
+  .card_container_2 .cards2 .box .content {
+    text-align: center;
+    font-size: 12px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
