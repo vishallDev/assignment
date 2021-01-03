@@ -4,9 +4,7 @@
     box-sizing: border-box ;
     scroll-behavior: smooth;
 }
-body{
-    // background: rgba(143, 140, 140, 0.315);
-}
+
 //! header section starts here which includes navbar buttons 
 header{
     width: 100%;
@@ -95,6 +93,7 @@ header{
 }
 
 //! Hero section Ends here
+// !css grid cards section stars here
 .img {grid-area: img;}
 .desc {grid-area: desc;}
 .img1 {grid-area: img1;}
@@ -103,9 +102,8 @@ header{
 .desc2 {grid-area: desc2;}
 .img3 {grid-area: img3;}
 .desc3 {grid-area: desc3;}
-// !css grid cards section stars here
 .card_container{
-    border: 2px solid red;
+    // border: 2px solid red;
     margin: 9px auto;
     padding: 0px 10px;
     display: flex;
@@ -206,7 +204,7 @@ transition: 0.4s ease all;
 
 
 .card_container_2{
-    border: 2px solid red;
+    // border: 2px solid red;
     display: flex;
     justify-content: center;
     // align-items: center;
@@ -226,7 +224,7 @@ transition: 0.4s ease all;
     justify-content: center;
     height: 140px;
     margin: 8px;
-    border: 0.5px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.342);
     overflow: hidden;
     width: 50%;
     transition: all 0.3s ease;
@@ -236,12 +234,12 @@ transition: 0.4s ease all;
             .pic{
                 // width: 140px;
                 height: 100%;
-                border-radius: 5px;
+                // border-radius: 5px;
             }
             .content{
                 width: 100%;
                 // height: 100%;
-                padding: 2px;
+                padding: 3px;
                 font-size: 19px;
                 display: flex;
                 align-items: center;
@@ -256,12 +254,14 @@ transition: 0.4s ease all;
 // footer here
 footer{
     text-align: center;
-    background-color: rgb(0, 0, 0);
+    background:rgba(110, 216, 205, 0.493);
+
     padding: 8px 0px; 
     p{
         letter-spacing: 1px;
         font-size: 12px;
-        color: white;
+        font-weight: bold;
+        color: black;
         text-decoration: none;
 } 
        

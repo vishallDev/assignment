@@ -148,7 +148,6 @@ header .navbar .nav_btn .btn:hover {
 }
 
 .card_container {
-  border: 2px solid red;
   margin: 9px auto;
   padding: 0px 10px;
   display: -webkit-box;
@@ -299,7 +298,6 @@ header .navbar .nav_btn .btn:hover {
 }
 
 .card_container_2 {
-  border: 2px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -331,7 +329,7 @@ header .navbar .nav_btn .btn:hover {
           justify-content: center;
   height: 140px;
   margin: 8px;
-  border: 0.5px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.342);
   overflow: hidden;
   width: 50%;
   -webkit-transition: all 0.3s ease;
@@ -345,12 +343,11 @@ header .navbar .nav_btn .btn:hover {
 
 .card_container_2 .cards2 .box .pic {
   height: 100%;
-  border-radius: 5px;
 }
 
 .card_container_2 .cards2 .box .content {
   width: 100%;
-  padding: 2px;
+  padding: 3px;
   font-size: 19px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -364,14 +361,15 @@ header .navbar .nav_btn .btn:hover {
 
 footer {
   text-align: center;
-  background-color: black;
+  background: rgba(110, 216, 205, 0.493);
   padding: 8px 0px;
 }
 
 footer p {
   letter-spacing: 1px;
   font-size: 12px;
-  color: white;
+  font-weight: bold;
+  color: black;
   text-decoration: none;
 }
 
