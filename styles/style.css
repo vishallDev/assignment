@@ -415,13 +415,14 @@ footer p {
   }
   .download {
     min-height: 60px;
-    padding: 5px;
+    padding: 10px;
   }
   .download h2 {
-    font-size: 20px;
+    font-size: 22px;
   }
   .download .download_btn {
     margin: 2px 2px;
+    padding: 8px 15px;
   }
   .card_container_2 .cards2 {
     display: -webkit-box;
