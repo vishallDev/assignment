@@ -386,8 +386,14 @@ footer p {
     text-align: center;
     border: 2px solid rebeccapurple;
   }
+  .card_container .cards .description {
+    height: 100%;
+    overflow: hidden;
+    font-size: 12px;
+  }
   .branding p {
-    font-size: 22px;
+    font-size: 20px;
+    margin: 0 4px;
     color: black;
     font-family: 'Merienda', cursive;
     font-weight: bold;
@@ -403,6 +409,9 @@ footer p {
   }
   .download .download_btn {
     margin: 2px 2px;
+  }
+  .card_container_2 {
+    padding: 0;
   }
   .card_container_2 .cards2 .box {
     width: 100%;
