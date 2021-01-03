@@ -37,18 +37,22 @@ header .navbar .nav_btn {
 }
 
 header .navbar .nav_btn .btn {
-  padding: 4px 8px;
+  padding: 10px 22px;
   margin: 0px 3px;
   background: transparent;
   outline: none;
   border: 1px solid black;
-  border-radius: 4px;
+  border-radius: 3px;
   cursor: pointer;
   font-family: 'Merienda', cursive;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 
 header .navbar .nav_btn .btn:hover {
-  background: rgba(16, 32, 32, 0.342);
+  background: rgba(255, 2, 78, 0.938);
+  border: red;
+  color: black;
 }
 
 .hero {
@@ -70,7 +74,7 @@ header .navbar .nav_btn .btn:hover {
 .hero button {
   background-color: transparent;
   /* Green */
-  border: 1px solid black;
+  border: 1px solid white;
   color: white;
   padding: 10px 22px;
   text-align: center;
@@ -361,13 +365,14 @@ header .navbar .nav_btn .btn:hover {
 
 footer {
   text-align: center;
-  background-color: rgba(95, 158, 160, 0.719);
+  background-color: black;
   padding: 8px 0px;
 }
 
 footer p {
   letter-spacing: 1px;
   font-size: 12px;
+  color: white;
   text-decoration: none;
 }
 
@@ -403,7 +408,8 @@ footer p {
   .card_container .cards .description {
     height: 100%;
     overflow: hidden;
-    font-size: 12px;
+    font-size: 11px;
+    padding: 4px 3px;
   }
   .branding {
     min-height: 180px;
