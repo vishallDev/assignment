@@ -282,7 +282,7 @@ header .navbar .nav_btn .btn:hover {
 
 .download .download_btn {
   padding: 10px 29px;
-  margin: 0 5px;
+  margin: 0 10px;
   background: transparent;
   border: 1px solid black;
   -webkit-transition: 0.4s ease all;
@@ -395,6 +395,10 @@ footer p {
     width: 100%;
     text-align: center;
     border: 2px solid rebeccapurple;
+  }
+  .card_container .cards .image {
+    height: 160px;
+    width: 160px;
   }
   .card_container .cards .description {
     height: 100%;

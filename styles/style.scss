@@ -182,7 +182,7 @@ align-items: center;
     }
     .download_btn{
 padding: 10px 29px;
-margin: 0 5px;
+margin: 0 10px;
 background: transparent;
 border: 1px solid black;
 transition: 0.4s ease all;
@@ -277,6 +277,10 @@ footer{
         width: 100%;
         text-align: center;
         border: 2px solid rebeccapurple;
+        .image{
+            height: 160px;
+    width: 160px;
+        }
         .description{
             height: 100%;
             overflow: hidden;
