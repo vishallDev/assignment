@@ -278,6 +278,8 @@ footer{
 }
 
 .branding{
+min-height: 180px;
+
     p{
         font-size: 20px;
         margin: 0 4px;
@@ -287,6 +289,7 @@ font-family: 'Merienda', cursive;
 font-weight: bold;
 letter-spacing: 1px;
 background-color: rgba(248, 248, 255, 0.733);
+
     }
 }
 

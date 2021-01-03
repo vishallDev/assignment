@@ -391,6 +391,9 @@ footer p {
     overflow: hidden;
     font-size: 12px;
   }
+  .branding {
+    min-height: 180px;
+  }
   .branding p {
     font-size: 20px;
     margin: 0 4px;
