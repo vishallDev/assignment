@@ -114,9 +114,9 @@ header{
 
         
 .image{
-    height: 180px;
+    height: 190px;
     width: 180px;
-    margin: 4px;
+    margin: 4px auto;
     // padding: 4px;
     border-radius: 4px;
     box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
@@ -124,7 +124,7 @@ header{
 .description{
     overflow: hidden;
     height: 180px;
-    margin: 4px;
+    margin: 4px auto;
 padding: 4px;
 display: flex;
 align-items: center;
@@ -147,7 +147,7 @@ align-items: center;
 // !random image section starts herer
 .branding{
     background: url('../images/someimgnew.jpg' )no-repeat center center/cover;
-    min-height: 200px;
+    min-height: 250px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -157,7 +157,7 @@ align-items: center;
 
     p{
         color: white;
-        font-size: 30px;
+        font-size: 50px;
         letter-spacing: 0.9px;
         padding: 4px;
         border-radius: 5px;
